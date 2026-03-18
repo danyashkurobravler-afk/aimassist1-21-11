@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aimassist",
+  "version": "1.0.0",
+  "name": "Aim Assist",
+  "description": "Плавное автонаведение на ближайшего врага при атаке. Включается/выключается клавишей V.",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/aimassist/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.aimassist.AimAssistMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
